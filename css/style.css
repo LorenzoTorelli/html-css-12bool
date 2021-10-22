@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.box {
+    min-height: 200px;
+    background-color: pink;
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-nested {
+    min-height: 50px;
+    background-color: green;
+    border: 1px solid white;
+}
+
+/* debug */
+.debug .container {
+    background-color: yellow;
+}
+
+.debug .grigio {
+    background-color: grey;
+    padding: 15px;
+}
